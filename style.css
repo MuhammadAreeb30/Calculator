@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calc {
+    width: 380px;
+    height: 565px;
+    background-color: rgba(224, 195, 252, 0.5);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calc-space {
+    width: 90%;
+    height: 90%;
+}
+
+.calc-space input {
+    width: 100%;
+    height: 20%;
+    font-size: 4rem;
+    outline: none;
+    border: none;
+    text-align: end;
+    padding-right: 2.2rem;
+    background: transparent;
+    color: #fff;
+}
+
+.calc-space input::placeholder {
+    color: #fff;
+}
+
+.calc-button {
+    width: 100%;
+    height: 80%;
+    margin-left: 0.55rem;
+    margin-top: 1rem;
+}
+
+.calc-button .btn {
+    width: 18%;
+    height: 16%;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 0.80rem;
+    margin-bottom: 0.80rem;
+    background-color: rgba(224, 195, 252, 0.6);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.calc-button .btn:hover {
+    background-color: #4158D0 !important;
+    color: #fff;
+}
+
+.zero-btn {
+    width: 41% !important;
+    border-radius: 30px !important;
+    transition: all 0.3s linear;
+}
+
+.equal-btn {
+    background-color: #4158D0;
+    color: #fff;
+    width: 18%;
+    height: 16%;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 0.80rem;
+    margin-bottom: 0.80rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.equal-btn:hover {
+    background-color: rgba(224, 195, 252, 0.6);
+    color: black;
+}
